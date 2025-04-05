@@ -29,7 +29,7 @@ function Form() {
  // Updated data to include phone
         
         try {
-            let response = await fetch('http://localhost:4000/details', {
+            let response = await fetch('https://formdata-backendmain.onrender.com/details', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
