@@ -54,10 +54,11 @@ function Form() {
     return (
         <div className='background'>
         <h1 className="highlight-heading">Unite as Hindus</h1>
+        <h1><b>SAI-AL-HIND</b></h1>
     
         <div className='container'>
             <form onSubmit={collectData}>
-                <h1 className='text-center pt-3'>SAI-AL-HIND</h1>
+                <h1 className='text-center pt-3'>Let's move towards the Hindurashtra</h1>
                 {error && <div className="alert alert-danger">{error}</div>}
                 {success && <div className="alert alert-success">{success}</div>}
                 <div className='ipboxes'>
